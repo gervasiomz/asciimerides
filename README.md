@@ -96,3 +96,7 @@ Editá `asciimerides.py` y agregá tu entrada en el diccionario `EPHEMERIS`:
 ## 📝 Licencia
 
 MIT — hacé lo que quieras. Si lo usás y te gusta, una ⭐ en GitHub alcanza.
+
+---
+
+> 🖥️ Para los que amamos la terminal, los datos curiosos y un toque de arte ASCII al empezar el día.
