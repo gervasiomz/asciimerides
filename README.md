@@ -93,9 +93,6 @@ Editá `asciimerides.py` y agregá tu entrada en el diccionario `EPHEMERIS`:
 """),
 ```
 
-### 🎂 Cumpleaños de la familia
-- Gerva (6/12), Lourdes (21/3), Lautaro (15/3), Emilia (1/7), Tomás (5/2)
-
 ## 📝 Licencia
 
 MIT — hacé lo que quieras. Si lo usás y te gusta, una ⭐ en GitHub alcanza.
