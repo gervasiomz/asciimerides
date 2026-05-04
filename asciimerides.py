@@ -351,6 +351,65 @@ EPHEMERIS = {
             \  ___  /    los Santos
              '-...-'
 """),
+
+    # ══════════════ CUMPLEAÑOS FAMILIA ══════════════
+
+    ("12", "06"): ("🎂  ¡Cumple de Gerva!", r"""
+         ╔══════════════════════╗
+         ║   🎂  ¡FELIZ CUMPLE  ║
+         ║      GERVA! 🎉       ║
+         ║                      ║
+         ║    🦊  6 de Diciembre ║
+         ║   Que sea un gran día ║
+         ╚══════════════════════╝
+              🎁  🎈  🎊
+"""),
+
+    ("03", "21"): ("🎂  ¡Cumple de Lourdes!", r"""
+         ╔══════════════════════╗
+         ║   🎂  ¡FELIZ CUMPLE  ║
+         ║    LOURDES! 💕       ║
+         ║                      ║
+         ║   🌸  21 de Marzo   ║
+         ║   Que sea un día     ║
+         ║   hermoso ☀️        ║
+         ╚══════════════════════╝
+              🌺  🎁  💐
+"""),
+
+    ("03", "15"): ("🎂  ¡Cumple de Lautaro!", r"""
+         ╔══════════════════════╗
+         ║   🎂  ¡FELIZ CUMPLE  ║
+         ║    LAUTARO! ⭐       ║
+         ║                      ║
+         ║ 🎮  15 de Marzo     ║
+         ║   ¡A festejar! 🎉  ║
+         ╚══════════════════════╝
+              🎈  🎁  🎈
+"""),
+
+    ("07", "01"): ("🎂  ¡Cumple de Emilia!", r"""
+         ╔══════════════════════╗
+         ║   🎂  ¡FELIZ CUMPLE  ║
+         ║    EMILIA! 🌸        ║
+         ║                      ║
+         ║  🎀  1 de Julio     ║
+         ║   ¡A festejar! 🎉  ║
+         ╚══════════════════════╝
+              🎂  🎈  🎀
+"""),
+
+    ("02", "05"): ("🎂  ¡Cumple de Tomás!", r"""
+         ╔══════════════════════╗
+         ║   🎂  ¡FELIZ CUMPLE  ║
+         ║    TOMÁS! ⚽         ║
+         ║                      ║
+         ║  🏀  5 de Febrero   ║
+         ║   ¡A festejar! 🎉  ║
+         ╚══════════════════════╝
+              🎈  🎁  🎈
+"""),
+
 }
 
 
