@@ -3,14 +3,14 @@
 ⭐ Ephemeris Cow — Efemérides del día con arte ASCII al abrir la terminal.
 
 Instalación:
-    curl -sSL https://tu-server/ephemeris-cow.py | sudo tee /usr/local/bin/ephemeris-cow > /dev/null
-    chmod +x /usr/local/bin/ephemeris-cow
-    echo 'ephemeris-cow' >> ~/.bashrc
+    curl -sSL https://tu-server/asciimerides.py | sudo tee /usr/local/bin/asciimerides > /dev/null
+    chmod +x /usr/local/bin/asciimerides
+    echo 'asciimerides' >> ~/.bashrc
 
 O manual:
-    sudo cp ephemeris-cow.py /usr/local/bin/ephemeris-cow
-    sudo chmod +x /usr/local/bin/ephemeris-cow
-    echo 'ephemeris-cow' >> ~/.bashrc
+    sudo cp asciimerides.py /usr/local/bin/asciimerides
+    sudo chmod +x /usr/local/bin/asciimerides
+    echo 'asciimerides' >> ~/.bashrc
 """
 from datetime import datetime
 

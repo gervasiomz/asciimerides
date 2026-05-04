@@ -1,10 +1,10 @@
-# 🐄 ephemeris-cow
+# 🐄 asciimerides
 
 **Efemérides del día con arte ASCII al abrir la terminal.**
 
 Cada vez que abras una terminal, te recibe con un dibujo ASCII temático según el día: Star Wars, Revolución de Mayo, Día de la Bandera, Navidad, Día del Programador... y si no hay nada especial, una vaquita estilo cowsay te saluda.
 
-![ephemeris-cow](https://img.shields.io/badge/python-3.8+-blue) ![license](https://img.shields.io/badge/license-MIT-green)
+![asciimerides](https://img.shields.io/badge/python-3.8+-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
 ## 📅 Efemérides incluidas
 
@@ -46,44 +46,44 @@ Cada vez que abras una terminal, te recibe con un dibujo ASCII temático según 
 ### Opción 1: Curl (recomendado)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/gervasiomz/ephemeris-cow/main/ephemeris-cow.py | sudo tee /usr/local/bin/ephemeris-cow > /dev/null
-sudo chmod +x /usr/local/bin/ephemeris-cow
-echo 'ephemeris-cow' >> ~/.bashrc
+curl -sSL https://raw.githubusercontent.com/gervasiomz/asciimerides/main/asciimerides.py | sudo tee /usr/local/bin/asciimerides > /dev/null
+sudo chmod +x /usr/local/bin/asciimerides
+echo 'asciimerides' >> ~/.bashrc
 ```
 
 ### Opción 2: Git clone
 
 ```bash
-git clone https://github.com/gervasiomz/ephemeris-cow.git
-cd ephemeris-cow
-bash install-ephemeris-cow.sh
+git clone https://github.com/gervasiomz/asciimerides.git
+cd asciimerides
+bash install-asciimerides.sh
 ```
 
 ### Opción 3: Manual
 
 ```bash
-sudo cp ephemeris-cow.py /usr/local/bin/ephemeris-cow
-sudo chmod +x /usr/local/bin/ephemeris-cow
-echo 'ephemeris-cow' >> ~/.bashrc
+sudo cp asciimerides.py /usr/local/bin/asciimerides
+sudo chmod +x /usr/local/bin/asciimerides
+echo 'asciimerides' >> ~/.bashrc
 ```
 
 ## 🖥️ Deploy masivo a múltiples servidores
 
 ```bash
 # A un server
-scp ephemeris-cow.py user@server:/tmp/
-ssh user@server 'sudo mv /tmp/ephemeris-cow.py /usr/local/bin/ephemeris-cow && sudo chmod +x /usr/local/bin/ephemeris-cow && echo ephemeris-cow >> ~/.bashrc'
+scp asciimerides.py user@server:/tmp/
+ssh user@server 'sudo mv /tmp/asciimerides.py /usr/local/bin/asciimerides && sudo chmod +x /usr/local/bin/asciimerides && echo asciimerides >> ~/.bashrc'
 
 # A todos tus servers
 for host in server1 server2 server3; do
-  scp ephemeris-cow.py $host:/tmp/
-  ssh $host 'sudo mv /tmp/ephemeris-cow.py /usr/local/bin/ephemeris-cow && sudo chmod +x /usr/local/bin/ephemeris-cow && echo ephemeris-cow >> ~/.bashrc'
+  scp asciimerides.py $host:/tmp/
+  ssh $host 'sudo mv /tmp/asciimerides.py /usr/local/bin/asciimerides && sudo chmod +x /usr/local/bin/asciimerides && echo asciimerides >> ~/.bashrc'
 done
 ```
 
 ## ➕ Agregar tus propias efemérides
 
-Editá `ephemeris-cow.py` y agregá tu entrada en el diccionario `EPHEMERIS`:
+Editá `asciimerides.py` y agregá tu entrada en el diccionario `EPHEMERIS`:
 
 ```python
 ("MM", "DD"): ("🏷️  Tu Título", r"""
