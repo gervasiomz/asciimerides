@@ -1,10 +1,12 @@
 # 🐄 asciimerides
 
+![asciimerides](asciimerides-logo.jpg)
+
 **Efemérides del día con arte ASCII al abrir la terminal.**
 
 Cada vez que abras una terminal, te recibe con un dibujo ASCII temático según el día: Star Wars, Revolución de Mayo, Día de la Bandera, Navidad, Día del Programador... y si no hay nada especial, una vaquita estilo cowsay te saluda.
 
-![asciimerides](https://img.shields.io/badge/python-3.8+-blue) ![license](https://img.shields.io/badge/license-MIT-green)
+![python](https://img.shields.io/badge/python-3.8+-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
 ## 📅 Efemérides incluidas
 
